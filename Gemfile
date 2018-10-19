@@ -119,6 +119,7 @@ group :development, :test do
   gem 'rspec-html-matchers'
   gem 'rspec-rails'
   gem 'simplecov', '~> 0.16.1'
+  gem 'rdoc'
 end
 
 group :staging, :production do
