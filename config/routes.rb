@@ -103,5 +103,6 @@ WebsiteOne::Application.routes.draw do
   get '/vanity/image'
 
   get '/dashboard', to: 'dashboard#index'
+  get '/calendar', to: 'calendar#index'
   get '*id', to: 'static_pages#show', as: 'static_page', :format => false
 end
