@@ -356,7 +356,6 @@ GEM
       addressable (~> 2.3)
     letter_opener (1.6.0)
       launchy (~> 2.2)
-    libv8 (3.16.14.19)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -499,11 +498,9 @@ GEM
     recaptcha (4.13.0)
       json
     redcarpet (3.4.0)
-    ref (2.0.0)
     regexp_parser (1.2.0)
     request_store (1.4.1)
       rack (>= 1.4)
-    require_all (2.0.0)
     responders (2.4.0)
       actionpack (>= 4.2.0, < 5.3)
       railties (>= 4.2.0, < 5.3)
@@ -606,9 +603,6 @@ GEM
       stripe (>= 2.0.3)
     sucker_punch (2.1.1)
       concurrent-ruby (~> 1.0)
-    therubyracer (0.12.3)
-      libv8 (~> 3.16.14.15)
-      ref
     thor (0.20.3)
     thread_safe (0.3.6)
     tilt (2.0.8)
@@ -617,6 +611,8 @@ GEM
     turbolinks-source (5.2.0)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
+    tzinfo-data (1.2018.7)
+      tzinfo (>= 1.0.0)
     uglifier (4.1.20)
       execjs (>= 0.3.0, < 3)
     unf (0.1.4)
@@ -765,8 +761,8 @@ DEPENDENCIES
   stripe
   stripe-ruby-mock (~> 2.5.6)
   sucker_punch
-  therubyracer
   turbolinks
+  tzinfo-data
   uglifier
   utf8-cleaner
   vanity
@@ -784,4 +780,4 @@ RUBY VERSION
    ruby 2.5.1p57
 
 BUNDLED WITH
-   1.17.0
+   1.17.1

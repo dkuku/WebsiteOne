@@ -61,7 +61,6 @@ gem 'slack-ruby-client'
 gem 'sprockets-rails', '~> 3.2', '>= 3.2.1'
 gem 'stripe'
 gem 'sucker_punch'
-gem 'therubyracer', platforms: :ruby
 gem 'turbolinks'
 gem 'uglifier'
 gem 'utf8-cleaner'
@@ -74,6 +73,7 @@ gem 'youtube_rails'
 gem 'bootsnap', '~> 1.3', '>= 1.3.2'
 gem 'icalendar'
 gem 'seed_dump'
+gem 'tzinfo-data'
 
 group :test do
   gem 'capybara'
